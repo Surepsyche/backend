@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Do you have many close friends?",
+        "answer": ["yes", "no"],
+        "severity": "low",
+        "category": "student"
+    },
+    {
+        "question": "Do you think not having more close friends affect your performance at school?",
+        "answer": ["yes", "no"],
+        "severity": "low",
+        "category": "student"
+    },
+    {
+        "question": "Over the last couple weeks, how frequently have you felt alone or lonely?",
+        "answer": ["very frequently", "frequently", "sometimes", "rarely", "never"],
+        "severity": "medium",
+        "category": "student"
+    },
+    {
+        "question": "How often do you complete home and school work within deadlines?",
+        "answer": ["very frequently", "frequently", "sometimes", "rarely", "never"],
+        "severity": "low",
+        "category": "student"
+    },
+    {
+        "question": "Do you have difficulty focusing on school subjects?",
+        "answer": ["yes", "no"],
+        "severity": "medium",
+        "category": "student"
+    },
+    {
+        "question": "How often do you frequent the library to get more information on class assignments?",
+        "answer": ["always", "sometimes", "rarely", "never"],
+        "severity": "low",
+        "category": "student"
+    },
+    {
+        "question": "How often do you take part in class discussions?",
+        "answer": ["always", "sometimes", "rarely", "never"],
+        "severity": "medium",
+        "category": "student"
+    },
+    {
+        "question": "How confident are you when taking part in class discussions?",
+        "answer": ["very confident", "confident", "sometimes confident", "rarely confident", "never confident"],
+        "severity": "low",
+        "category": "student"
+    },
+    {
+        "question": "Do you consider your contributions in classes to be taken serious by your classmates and teachers/lecturers?",
+        "answer": ["yes", "no", "partly"],
+        "severity": "low",
+        "category": "student"
+    },
+    {
+        "question": "How organized are you with your academic work? ",
+        "answer": ["very organized", " organized", "sometimes organised", "rarely organised", "never organised"],
+        "severity": "medium",
+        "category": "student"
+    }
+]

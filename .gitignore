@@ -1,0 +1,5 @@
+node_modules/
+junkFiles.js
+config.env
+.eslintrc.json
+.prettierrc

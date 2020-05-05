@@ -1,0 +1,37 @@
+[
+  {
+      "question": "Are you in an abusive relationship?",
+      "answer": ["yes", "no"],
+      "severity": "medium"
+  },
+  {
+      "question": "Ever been sexually assualted?",
+      "answer": ["yes", "no"],
+      "severity": "medium"
+  },
+  {
+      "question": "Undergone repetitive physical assualt?",
+      "answer": ["yes", "no"],
+      "severity": "medium"
+  },
+  {
+      "question": "Do you find true fulfillment in your job?",
+      "answer": ["yes", "no"],
+      "severity": "easy"
+  },
+  {
+      "question": "Are you financially healthy?",
+      "answer": ["yes", "no"],
+      "severity": "medium"
+  },
+  {
+      "question": "Do you have interpersonal relationship with people around you?",
+      "answer": ["yes", "no"],
+      "severity": "medium"
+  },
+  {
+      "question": "Battling with any kind of health challenge?",
+      "answer": ["yes", "no"],
+      "severity": "high"
+  }
+]
