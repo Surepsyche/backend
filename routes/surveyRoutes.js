@@ -1,6 +1,7 @@
 const express = require('express');
 
 const surveyControler = require('../controller/surveyController');
+const authController = require('./../controller/authController');
 
 const router = express.Router();
 
@@ -14,13 +15,17 @@ router.route('/monthly-plan/:year').get(surveyControler.getMonthlyPlan);
 
 router
   .route('/')
-  .get(surveyControler.getAllSurveys)
+  .get(authController.protect, surveyControler.getAllSurveys)
   .post(surveyControler.createSurvey);
 
 router
   .route('/:id')
   .get(surveyControler.getSurvey)
   .patch(surveyControler.updateSurvey)
-  .delete(surveyControler.deleteSurvey);
+  .delete(
+    authController.protect,
+    authController.restrictTo('admin'),
+    surveyControler.deleteSurvey
+  );
 
 module.exports = router;
